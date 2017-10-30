@@ -4,7 +4,6 @@ html {
 }
 body    {
     box-sizing: border-box;
-    /* margin: 0 auto; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/concrete-texture.png);
     margin: 0 0 50px;
@@ -12,6 +11,7 @@ body    {
 }
 .headings   {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
 }
 
 .navigation   {
@@ -50,7 +50,7 @@ li, a {
     text-decoration: none;
 }
 
-a {
+.nav-links {
     padding: 0 15px 0 15px;
     color: gray;
 }
@@ -79,7 +79,6 @@ a {
     padding: 20px;
     border: 1px solid gray;
     margin-bottom: 20px;
-
 }
 
 h2  {
