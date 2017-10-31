@@ -181,7 +181,21 @@ h2  {
 
 @media screen and (max-width: 768px) {
     .wrapper    {
-        width: 75%;
+        width: 100%;    
+    }
+
+    .logo   {
+        margin-left: 20px;
+    }
+
+    .nav-bar    {
+        margin-right: 20px;
+    }
+
+    .main-content   {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .about-me   {
         width: 91%;
@@ -211,4 +225,56 @@ h2  {
     }
 
 @media screen and (max-width: 640px)    {
+    .navigation {
+        position: static;
+        border: none;
+        background: none;
+    }
+
+    .nav-bar    {
+        float: none;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .logo   {
+        float: none;
+        width: 100%;
+    }
+    
+    
+    .wrapper    {
+        width: 100%;
+    }
+    .about-me   {
+        width: 75%;
+        margin-top: 75px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .profile-pic {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-info   {
+        width: 78%;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .connect-me {
+        text-align: left;
+        font-size: 19px;
+        padding: 17px 17px 17px 2px;
+    }
+    .small-icon {
+        width: 10%;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
     }
