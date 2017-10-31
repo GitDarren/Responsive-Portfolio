@@ -11,7 +11,7 @@ body    {
 }
 .headings   {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
+
 }
 
 .navigation   {
@@ -24,20 +24,22 @@ body    {
 
 
 .logo    {
+    text-decoration: none;
     float: left;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
     color: white;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
     height: 100px;
     width: 280px;
+
 }
 
 h1  {
     padding-top: 30px;
+    color: white;
 }
 .nav-bar    {
     float: right;
@@ -155,12 +157,57 @@ h2  {
 
 
 @media screen and (max-width: 980px) {
+    .wrapper    {
+        width: 75%;
+    }
+    .about-me   {
+        width: 54%;
+        margin-bottom: 50px;
+    }
+    .profile-pic {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-info   {
+        width: 30%;
+    }
+
+    .small-icon {
+        width: 30%;
+        padding-right: 2px;
+        padding-left: 2px;
     }
 
 @media screen and (max-width: 768px) {
+    .wrapper    {
+        width: 75%;
+    }
+    .about-me   {
+        width: 91%;
+        margin-bottom: 50px;
+        float: none;
+    }
+    .profile-pic {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
     .contact-info   {
-        width: 100%;
-        /* float: none; */
+        width: 94.5%;
+        margin-bottom: 100px;
+        float: none;
+    }
+
+    .connect-me {
+        text-align: left;
+        font-size: 19px;
+        padding: 17px 17px 17px 2px;
+    }
+    .small-icon {
+        width: 10%;
+        padding-right: 2px;
+        padding-left: 2px;
     }
 
 @media screen and (max-width: 640px)    {
