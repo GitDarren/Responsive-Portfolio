@@ -270,7 +270,6 @@ button {
     }
 
     .nav-bar    {
-        margin-right: 30px;
     }
 
     .main-content   {
@@ -283,14 +282,10 @@ button {
         margin-bottom: 50px;
         float: none;
     }
-    .container   {
-        width: 91%;
-        margin-bottom: 50px;
-        float: none;
-    }
 
-    .work img {
-        width: 200%;
+    .work  {
+        width: 96%;
+        float: none;
     }
 
     .profile-pic {
@@ -325,7 +320,6 @@ button {
     .nav-bar    {
         float: none;
         background-color: white;
-        margin-right: 30px;
         padding: 20px;
     }
 
