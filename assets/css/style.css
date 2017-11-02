@@ -246,6 +246,9 @@ button {
         width: 100%;
         margin-bottom: 10px;
     }
+    .work   {
+        width: 94%;
+    }
 
     .contact-info   {
         width: 30%;
@@ -280,6 +283,16 @@ button {
         margin-bottom: 50px;
         float: none;
     }
+    .container   {
+        width: 91%;
+        margin-bottom: 50px;
+        float: none;
+    }
+
+    .work img {
+        width: 200%;
+    }
+
     .profile-pic {
         width: 50%;
         margin-bottom: 10px;
