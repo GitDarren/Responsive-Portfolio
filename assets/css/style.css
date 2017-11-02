@@ -139,6 +139,17 @@ button {
 }
 
 /* Contact.html css */
+
+
+/*Portfolio.html css */
+
+.col-md-6   {
+    width: 10%;
+    float: left;
+
+}
+
+
 .contact-info   {
     background-color: white;
     width: 248px;
